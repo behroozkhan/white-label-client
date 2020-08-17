@@ -41,7 +41,7 @@ class ServerManager {
     };
 }
 
-// let Server = new ServerManager("/whitelabel");
-let Server = new ServerManager("https://whitelabel.weblancer.ir/api");
+let Server = new ServerManager("/api");
+// let Server = new ServerManager("https://whitelabel.weblancer.ir/api");
 
 export default Server;

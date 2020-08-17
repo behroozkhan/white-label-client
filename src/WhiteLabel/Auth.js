@@ -35,7 +35,7 @@ class AuthManager {
     }
 }
 
-// let Auth = new AuthManager("/whitelabel");
-let Auth = new AuthManager("https://whitelabel.weblancer.ir/api");
+let Auth = new AuthManager("/api");
+// let Auth = new AuthManager("https://whitelabel.weblancer.ir/api");
 
 export default Auth;
